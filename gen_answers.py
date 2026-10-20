@@ -114,7 +114,7 @@ assert len(qids) == 100 and len(set(qids)) == 100, "题目题号异常"
 assert set(qids) == set(answers), f"题号不匹配: 缺 {set(qids)-set(answers)} 多 {set(answers)-set(qids)}"
 
 out = {
-    "选手名称": "",
+    "选手名称": "wqhflywhite",
     "参赛包编号": "pkg-08e82c8d",
     "答案": [{"题号": qid, "查询语句": answers[qid]} for qid in qids],
 }
